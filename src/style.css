@@ -27,12 +27,12 @@ body {
   align-items: center;
 }
 
-.nav__logo {
+.header__logo {
   display: flex;
   align-items: center;
 }
 
-.nav__img {
+.header__img {
   height: 40px;
   width: 40px;
 }
@@ -85,10 +85,4 @@ body {
   height: 4px;
   bottom: 0;
   border-radius: 8px;
-}
-
-@media (max-width: 1024px) {
-  .nav__item {
-    margin-right: 20px;
-  }
 }
