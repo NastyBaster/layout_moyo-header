@@ -2,14 +2,9 @@
   --blue: #00acdc;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-family: Roboto, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,12 +14,17 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
+  align-items: center;
 }
 
 .nav__logo {
